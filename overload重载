@@ -1,0 +1,32 @@
+
+//overload记住一个方法名称，就可以实现多个功能
+//方法名称一样，参数列表不一样
+
+public class chongzai {
+  public static void main(String[] args) {
+    System.out.println(one(2, 3));
+    System.out.println(one(2, 3, 4));
+    System.out.println(one(3, 4, 5, 6));
+  }
+public static int one(int a,int b) {
+  System.out.println("2个");
+  return a+b;
+  
+}
+public static int one(int a,int b,int c) {
+  System.out.println("3个");
+  return a+b+c;
+  
+}
+
+public static int one(int a,int b,int c,int d) {
+  System.out.println("4个");
+  return a+b+c+d;
+  
+}
+
+
+
+
+  
+}

@@ -1,0 +1,51 @@
+public class ifyuju {
+  public static void main(String[] args){
+//   int grade=79;
+//    if(grade<60){
+
+//     System.out.println("不及格");            
+// }
+
+// else {
+//   if(grade>60&&grade<80){
+
+//     System.out.println("良好");
+// }
+
+// else{
+//   System.out.println("优秀");
+
+// }
+ 
+// }
+// int a=10;
+// int b=8;
+// int max=a>b?a:b;
+// System.out.println(max);
+
+int arry[]={3,4,5,6,7,2,1,-1};
+int min=arry[0];
+
+for(int i=1;i<arry.length;i++){
+  if(arry[i]<min){
+       min=arry[i];
+
+
+  }
+
+
+
+
+}
+
+
+ System.out.println(min);
+
+  }
+
+
+
+
+
+  
+}

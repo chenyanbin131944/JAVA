@@ -1,0 +1,19 @@
+public class diaoyong02 {
+  public static void main(String[] args) {
+  System.out.println(getsum());
+  }
+public static int getsum() {
+  
+    int sum=0;
+  for(int i=1;i<=100;i++){
+
+      sum=sum+i;
+
+
+  }
+  return sum;
+}
+
+}
+===================================
+计算0～100的数字

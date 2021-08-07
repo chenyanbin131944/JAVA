@@ -1,0 +1,20 @@
+
+
+public class dowhile {
+public static void main(String[]args){
+  int i=0;
+  String message="起きなさい！";
+// do{ System.out.println(message+="!");
+// i++;
+// }
+// while(i<5);
+for(i=0;i<5;i++){
+  System.out.println(message+="!");
+
+}
+
+
+}
+
+  
+}
